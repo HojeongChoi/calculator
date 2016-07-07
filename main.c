@@ -38,8 +38,8 @@ int main(int argc, char* argv[])
 int add(int a, int b)
 {
 	int result = a+b;
-	prinft("###a+b="+ result);
-	return result;
+	printf("add hahahahahaha  ###a+b=");
+	return 0;
 }
  
 int sub(int a, int b)
@@ -51,11 +51,13 @@ int sub(int a, int b)
 int multi(int a, int b)
 {
 	//TODO implementation
+	printf("multi hahahahahaha");
 	return 0;
 }
  
 int div(int a, int b)
 {
 	//TODO implementation
+	printf("div hahahahahaha");
 	return 0;
 }
