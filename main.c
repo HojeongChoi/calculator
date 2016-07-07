@@ -7,25 +7,26 @@ int multi(int, int);
  
 int main(int argc, char* argv[])
 {
-	int a, b, c;
+	int a1, b, c;
 	char operator;
 	
 	printf("Please enter a expression");
-	scanf("%d %c %d", &a, &operator, &b);
+	scanf("%d %c %d", &a1, &operator, &b);
+	
 	
 	switch (operator)
 	{
 		case '+':
-			c = add(a, b);
+			c = add(a1, b);
 			break;
 		case '-':
-			c = sub(a, b);
+			c = sub(a1, b);
 			break;
 		case '*':
-			c = multi(a, b);
+			c = multi(a1, b);
 			break;
 		case '/':
-			c = div(a, b);
+			c = div(a1, b);
 			break;
 	}
 	
