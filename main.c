@@ -37,8 +37,8 @@ int main(int argc, char* argv[])
  
 int add(int a, int b)
 {
-	//TODO implementation
-	printf("add hahahahahaha");
+	int result = a+b;
+	printf("add hahahahahaha  ###a+b=");
 	return 0;
 }
  
